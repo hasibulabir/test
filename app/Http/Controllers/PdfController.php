@@ -45,7 +45,7 @@ class PdfController extends Controller
   
       $invoice = time().'.pdf';
   
-     //  $pdf->save(public_path('/').$invoice);
+      $pdf->save(public_path('/').$invoice);
   
      //  dd('ok');
      return view('invoice');
